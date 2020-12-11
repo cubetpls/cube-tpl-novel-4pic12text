@@ -1,23 +1,14 @@
-# 标准故事类cube 模板，4图 + 12文字链
-
-## 介绍
-标准故事类模板，适合故事/图集类场景。
-
-## 使用
-```
-cubetool init <cubeid> -t https://github.com/ntt360/cube-tpl-novel-4pic12text.git
-```
-或简写：
-```
-cubetool init <cubeid> -t ntt360/cube-tpl-novel-4pic12text
-```
-
-## UI预览
-![标准资讯类模板 UI 预览图](https://raw.githubusercontent.com/ntt360/cube-tpl-novel-4pic12text/master/ui/ui.png)
-
-## data格式
-```json
-[
+{
+  "list" : {
+    "host"   : "https://story.hao.360.cn/api/majia/data",
+    "timeout": 3000,
+    "cb": "_callback",
+    "data": {
+      "cate": "topic",
+      "file": "tag",
+      "fmt": "jsonp"
+    },
+    "offline": [
       {
         "name": "情感故事",
         "pic": "https://gua1.qhimg.com/t019a64215963a78988.jpg",
@@ -99,4 +90,5 @@ cubetool init <cubeid> -t ntt360/cube-tpl-novel-4pic12text
         "link": "https://story.hao.360.cn/tag=%E5%BD%B1%E8%A7%86"
       }
     ]
-```
+  }
+}

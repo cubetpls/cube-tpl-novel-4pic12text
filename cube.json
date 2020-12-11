@@ -1,0 +1,17 @@
+{
+	"version": "1.0.0",
+	"name": "故事模板",
+	"ie": 10,
+	"miniapp_only": false,
+	"disable_expand": false,
+	"launchimg": "assets/launchimg.png",
+	"files": [
+		"cube.tpl",
+		"cube.css",
+		"cube.js",
+		"assets/launchimg.png",
+		"components/Slider/index.css",
+		"components/Slider/index.js"
+	],
+	"id": "QOx5me4QIsO"
+}
